@@ -31,10 +31,17 @@ group: :development
 gem 'rails_12factor', 
 group: :production
 
+group :development do 
+	gem 'better_errors'
+	gem 'rails_layout'
+
+	
+end
 #lab1
 #lab2
 gem 'carrierwave'
 gem 'twitter-bootstrap-rails'
+gem 'foundation-rails'
 #make the rails server readable
 gem 'quiet_assets'
 
