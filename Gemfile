@@ -34,14 +34,13 @@ group: :production
 group :development do 
 	gem 'better_errors'
 	gem 'rails_layout'
-
-	
 end
 #lab1
 #lab2
-gem 'carrierwave'
 gem 'twitter-bootstrap-rails'
 gem 'foundation-rails'
+gem 'carrierwave'
+gem 'rmagick', :require => 'RMagick'
 #make the rails server readable
 gem 'quiet_assets'
 

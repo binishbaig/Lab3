@@ -14,9 +14,31 @@
 </p>
 
 <p>
+  <strong>City:</strong>
+  <%= @restaurant.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @restaurant.state %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @restaurant.zipcode %>
+</p>
+
+<p>
   <strong>Phone:</strong>
   <%= @restaurant.phone %>
 </p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @restaurant.image_url(:thumb).to_s %>
+</p>
+
+
 
 <%= link_to 'Back', restaurants_path %>
 | <%= link_to 'Edit', edit_restaurant_path(@restaurant) %>
