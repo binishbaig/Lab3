@@ -7,6 +7,8 @@
     <th>Address</th>
     <th>Phone</th>
   </tr>
+
+  <% gmap = "http://maps.googleapis.com/maps/api/staticmap?center=60452&zoom=12&size=400x400&sensor=false&key=#{@gmaps_key}&markers=color:red"%>
  
   <% @restaurants.each do |restaurant| %>
     <tr>

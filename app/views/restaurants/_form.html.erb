@@ -49,6 +49,11 @@
     <li>Upload an image</li>
     <%= f.file_field :image %>
   </p>
+  <p>
+    <%= f.label :remote_image_url, "or Image URL" =%><br>
+    <%= f.text_field :remote_image_url =%>
+
+  </p>
  
   <p>
     <%= f.submit %>

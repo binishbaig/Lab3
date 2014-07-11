@@ -41,8 +41,13 @@ gem 'twitter-bootstrap-rails'
 gem 'foundation-rails'
 gem 'carrierwave'
 gem 'rmagick', :require => 'RMagick'
+gem 'dotenv-rails', :groups => [:development, :test]
 #make the rails server readable
 gem 'quiet_assets'
+
+#lab 3
+
+gem 'devise'
 
 
 # Use ActiveModel has_secure_password
