@@ -1,2 +1,17 @@
-<h1>Hello, Rails!</h1>
-<%= link_to 'List of my Restaurant', controller: 'restaurants' %>
+<h1>Binish's Restaurant Directory</h1>
+<h3>Welcome to Reservester's Restaurant Directory</h3>
+	<p>
+	Here you can find a listing of our favorite restaurants in the area.
+	Feel free to browse or add to our directory. And don't forget to share with your friends!
+	</p>
+<div class="row">
+	<div class="large-3 columns"><p></p>
+	</div>
+    <div class="large-3 columns">
+		<p><%= link_to 'List of my Restaurant', controller: 'restaurants' %></p>
+	</div>
+	<div class="large-3 columns">
+		<p><%= link_to 'New Entry', new_restaurant_path %></p>
+	</div>
+	<div class="large-3 columns"><p></p>
+	</div>
