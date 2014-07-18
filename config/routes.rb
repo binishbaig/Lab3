@@ -3,6 +3,7 @@ Reservester::Application.routes.draw do
   root 'welcome#index'
   devise_for :users
   resources :restaurants
+  resources :users
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
